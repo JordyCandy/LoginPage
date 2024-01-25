@@ -25,7 +25,7 @@
                 <input type="email" name="email" placeholder="JohnDoe@gmail.com" required>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" minlength="8" required>
+                <input id="password" type="password" name="password" minlength="8" required>
                </div>
 
                 <div class="input2 two">
@@ -36,15 +36,17 @@
                 <input type="number" placeholder="12345678" name="tel">
 
                 <label for="confirm">Confirm Password</label>
-                <input type="password" name="confirm" minlength="8" required>
+                <input id="confirm" type="password" name="confirm" minlength="8" required>
             </div>
            </div>
-            <button class="btn" type="submit">Create Account</button>
+            <button id="btn" type="submit">Create Account</button>
             </form>
             <div class="footer">
               <input class="check" type="checkbox" required><h4>By signing up, you agree to be bound by the following terms. Please read them carefully. <a href="" target="_blank">Ts&Cs</a></h4>
             </div>
         </div>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
