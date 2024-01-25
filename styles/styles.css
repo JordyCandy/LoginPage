@@ -21,8 +21,9 @@ body{
     left: 35%;
     width: 30%;
     padding: 2%;
-    border: 1px solid;
+    border: 1px solid #3a3a3a;
     border-radius: 3%;
+    background-color: #a7a899;
 }
 
 .btn:hover{
@@ -66,12 +67,18 @@ body{
     justify-content: space-around;
 }
 
+label{
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+}
+
 input{
     background-color: #1C1C1C;
     border: 0;
     border-bottom: 2px #a7a899 solid;
     margin-bottom: 15%;
     text-align: center;
+    color: #a7a899;
 }
 
 input:focus{
